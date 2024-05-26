@@ -1,5 +1,6 @@
 {
-  outputs = {
+  inputs = { };
+  outputs = inputs: {
     templates = {
       pp = {
         path = ./python-poetry;
